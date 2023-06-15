@@ -43,7 +43,9 @@ class UrlSignerServiceProvider extends ServiceProvider
             return new UrlSigner(
                 $config['signatureKey'],
                 $config['parameters']['expires'],
-                $config['parameters']['signature']
+                $config['parameters']['signature'],
+                $config['parameters']['useKeyValue'],
+                $config['parameters']['usePartialUrl']
             );
         });
 

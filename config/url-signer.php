@@ -6,7 +6,7 @@ return [
     * This string is used the to generate a signature. You should
     * keep this value secret.
     */
-    'signatureKey' => env('APP_KEY'),
+    'signatureKey' => env('URL_SIGNER_SIGNATURE_KEY'),
 
     /*
      * The default expiration time of a URL in days.
@@ -19,6 +19,8 @@ return [
     'parameters' => [
         'expires'   => 'expires',
         'signature' => 'signature',
+        'useKeyValue' => false,
+        'usePartialUrl' => false,
     ],
 
 ];

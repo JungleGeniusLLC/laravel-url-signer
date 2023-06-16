@@ -17,7 +17,7 @@
     ],
     "require": {
         "php" : "^7.2|^8.0",
-        "spatie/url-signer": "^1.0.1",
+        "spatie/url-signer": "dev-1.2.2-Highwinds-CDN-Support",
         "illuminate/support": "~5.8.0|^6.0|^7.0|^8.0|^9.0",
         "illuminate/http": "~5.8.0|^6.0|^7.0|^8.0|^9.0"
     },
